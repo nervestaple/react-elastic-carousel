@@ -106,6 +106,8 @@ export interface ReactElasticCarouselProps {
   onPrevEnd?: (nextItemObject: ItemObject, currentPageIndex: number) => void;
   // A callback for the "slider-container" resize
   onResize?: (currentBreakpoint: Breakpoint) => void;
+
+  children: React.ReactNode;
 }
 
 declare class ReactElasticCarousel extends React.Component<
